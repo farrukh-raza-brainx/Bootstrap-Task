@@ -1,3 +1,6 @@
+body{
+    font-family:  "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
 .dropdown-toggle:hover, .button-link:hover {
     opacity: 50%;
 }
@@ -31,7 +34,9 @@ button.btn-outline-primary:hover, button.btn:hover{
 
     flex-direction: column;
 }
-
+header{
+    font-family:  "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
 .vertical.carousel .carousel-indicators [data-bs-target] {
     height: 30px;
     width: 3px;
@@ -83,21 +88,35 @@ pre{
         text-align: center;
     }
 }
-.container-iframe {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  .hover50:hover{
+    opacity: 50%;
   }
-  
-  /* Then style the iframe to fit in the container div with full height and width */
-  .responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
+  .top-header{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  a:hover{
+    opacity: 50%;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  p{
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+  }
+  .q-mark{
+    border-radius: 200%;
+    padding: 2px 4px;
+    background-color: rgb(7, 145, 7);
+    color: white;
+    float: right;
     right: 0;
-    width: 100%;
-    height: 100%;
+    font-size: x-small;
+    margin-right: 7px;
+    margin-bottom: 
   }
-  
+  .go-back{
+    z-index: -1;
+  }

@@ -1,0 +1,103 @@
+.dropdown-toggle:hover, .button-link:hover {
+    opacity: 50%;
+}
+
+button.btn-outline-primary:hover, button.btn:hover{
+    background-color: transparent;
+    opacity: 50%;
+}
+
+
+.vertical.carousel .carousel-item {
+    overflow: hidden;
+}
+
+.vertical.carousel .carousel-item-next:not(.carousel-item-start),
+.vertical.carousel .active.carousel-item-end {
+    transform: translateY(100%);
+}
+
+.vertical.carousel .carousel-item-prev:not(.carousel-item-end),
+.vertical.carousel .active.carousel-item-start {
+    transform: translateY(-100%);
+}
+
+.vertical.carousel .carousel-indicators {
+    top: 0;
+    left: unset;
+
+    margin-left: unset !important;
+    margin-right: 1rem;
+
+    flex-direction: column;
+}
+
+.vertical.carousel .carousel-indicators [data-bs-target] {
+    height: 30px;
+    width: 3px;
+}
+
+.vertical.carousel .carousel-control-prev,
+.vertical.carousel .carousel-control-next {
+    width: 100%;
+    height: 60px;
+}
+
+.vertical.carousel .carousel-control-prev-icon,
+.vertical.carousel .carousel-control-next-icon {
+    transform: rotateZ(90deg);
+}
+
+.vertical.carousel .carousel-control-next {
+    top: unset;
+    bottom: 0;
+}
+.checked {
+    color: rgb(10, 177, 10);
+  }
+.zoomin:hover{
+    transform: scale(1.5);
+}
+.btn.btn-outline-primary{
+    color: #0d4f9a;
+    border-color: #0d4f9a;
+}
+.most-popular{
+    border: 3px solid #0d4f9a;
+}
+pre{
+    font-family:"Lato","HelveticaNeue","Helvetica Neue",sans-serif;
+}
+.fa.fa-star{
+    font-size: 300%;
+}
+@media screen and (max-width: 468px ) {
+    .hideme{
+        visibility: hidden;
+    }
+    .col-sm-3{
+        border: 1px solid darkgray;
+    }
+    .jus-con{
+        justify-content: center;
+        text-align: center;
+    }
+}
+.container-iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

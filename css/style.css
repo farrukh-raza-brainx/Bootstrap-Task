@@ -77,8 +77,12 @@ pre{
     font-size: 300%;
 }
 @media screen and (max-width: 468px ) {
+    body{
+        justify-content: center;
+        margin: auto;
+    }
     .hideme{
-        visibility: hidden;
+        display: none;
     }
     .col-sm-3{
         border: 1px solid darkgray;
@@ -87,6 +91,19 @@ pre{
         justify-content: center;
         text-align: center;
     }
+    nav{
+        display: grid;
+        justify-content: center;
+    }
+    nav.div{
+        padding-left: 0;
+    }
+    iframe, .frame1{
+        width: 370px;
+    }
+    .fl-rt{float: right;}
+    .fl-lf{float: left;}
+    
 }
   .hover50:hover{
     opacity: 50%;
@@ -115,7 +132,6 @@ pre{
     right: 0;
     font-size: x-small;
     margin-right: 7px;
-    margin-bottom: 
   }
   .go-back{
     z-index: -1;

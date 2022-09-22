@@ -11,15 +11,18 @@
 </head>
 <body style="max-width:100%;">
 <header >
-    <div class="text-white p-0" style="background-color: #0d4f9a;">
-        <div class="top-header flex-container">
-            <div class="flex-container" style="width: 40%; display: flex; padding-top: 5px; padding-right: 10px;">
-                <div>
-                    <img  src="img/header.png" style="width: 70%; margin: auto;" >
+    <div class="text-white p-0 px-3" style="background-color: #0d4f9a;">
+        <div class="top-header row">
+            <div class="col-sm-4 row d-flex pt-1 px-1">
+                <div class="col-sm-1 py-1 px-2">
+                    <img class="w-100"  src="img/header.png">
                 </div>
-                 <p  class="col-sm-11 p-0 pt-2 hover50" style = "font-size:110%; margin-bottom: 5px;">EVERY ORDER FEEDS A CHILD</p>
+                <div class="col-sm-11 pt-1">
+                    <p  class="pt-2 hover50 lt-spc pb-0 mb-0 px-0">EVERY ORDER FEEDS A CHILD</p>
+                </div>
+                 
             </div>
-            <div style="padding-top: 5px; width: 60%; display: flex; justify-content: right;">
+            <div class="d-flex col-sm-8 justify-content-end pt-1">
                 <div>
                     
                     <button class="btn text-white  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:transparent; font-size: 100%;">
@@ -41,13 +44,13 @@
             </div>
         </div>
     </div>
-    <div class="flex-container row pb-0"style=" margin: 0px 50px 0px 50px;background-image: url(/img/bgcircles.webp); background-repeat: repeat-x; display: flex;">
+    <div class="flex-container row pb-2 px-5 mx-3"style="background-image: url(/img/bgcircles.webp); background-repeat: repeat-x; display: flex;">
         <div class="flex-container img-wrapper col-sm-2" style="align-items: center; justify-content: center;">
             <img class="hover50" src="img/header2.avif" style="margin: auto; display:block;">
         </div>
-        <nav class="col-sm-7">
-            <div class="dropdown" style="display: inline-block; padding-top: 30px; padding-left: 15px;">
-                <button class="btn btn-secondary dropdown-toggle mt-1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:#023877; padding: 15px">
+        <nav class="col-sm-6 p-2 nav-div pt-3 px-5">
+            <div class="dropdown d-inline-block pt-3 px-1">
+                <button class="btn btn-secondary dropdown-toggle mt-1 p-2 px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:#023877;">
                   SHOP
                 </button>
                 <ul class="dropdown-menu bg-white text-dark" aria-labelledby="dropdownMenuButton1">
@@ -56,12 +59,12 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </div>
-              <a class="btn m-2" style="border: none; color: #0d4f9a;font-size: 90%; font-weight: 600;">QUALITY</a>
-              <a class="btn m-2" style="border: none; color: #0d4f9a;font-size: 90%; font-weight: 600;">MISSION</a>
-              <a class="btn m-2" style="border: none; color: #0d4f9a;font-size: 90%; font-weight: 600;">#BIOTRUST</a>
+              <a class="px-1 m-2 nav-btn-outline" >QUALITY</a>
+              <a class="px-1 m-2 nav-btn-outline" >MISSION</a>
+              <a class="px-1 m-2 nav-btn-outline" >#BIOTRUST</a>
         </nav>
-        <div class="col-sm-3 d-grid justify-content-end" style="border:none; padding: 15px;">
-            <p style="margin-bottom: 0px; color: rgb(12, 161, 12); font-weight: 1000; font-size: 90%; text-align: right;">CUSTOMER SUPPORT</p>
+        <div class="col-sm-3 d-grid justify-content-end cs-support pt-2">
+            <p class="pt-3" style="margin-bottom: 0px; color: rgb(12, 161, 12); font-weight: 1000; font-size: 90%; text-align: right;">CUSTOMER SUPPORT</p>
             <div  class="container-fluid">
                 <input style="margin-top: 0px; " type="text" id="search" placeholder="search all products..." style="border: none;">
                 <button  type="submit"><i class="fa fa-search" style="background-color: transparent;"></i></button>
@@ -76,27 +79,27 @@
 <div class="row" title="products" style="display: flex;">
     <!-- Carousel -->
     <div class="row col-sm-6">
-        <div class="col-sm-4 container hideme">
-            <img src="/img/brim.jpeg" style="max-width: 200px;">          
-            <img src="/img/sage.jpeg"style="max-width: 200px;"  >
-            <img src="/img/fade.jpg" style="max-width: 200px;" >
-            <img src="/img/viper.jpg"style="max-width: 200px;">
-            <img src="/img/jett.jpg" style="max-width: 200px;" >
-            <img src="/img/butterfly.jpg" style="max-width: 200px;" >
+        <div class="col-sm-4 pt-4 justify-content-center hideme">
+            <img class="d-flex carousel-img px-4 py-2 hover50" src="/img/brim.jpeg">          
+            <img class="d-flex carousel-img px-4 py-2 hover50" src="/img/sage.jpeg"  >
+            <img class="d-flex carousel-img px-4 py-2 hover50" src="/img/fade.jpg"  >
+            <img class="d-flex carousel-img px-4 py-2 hover50" src="/img/viper.jpg">
+            <img class="d-flex carousel-img px-4 py-2 hover50" src="/img/jett.jpg"  >
+            <img class="d-flex carousel-img px-4 py-2 hover50" src="/img/butterfly.jpg" >
         </div>
         <div class="col-sm-8 justify-content-center" style=" text-align:center; color: #0253b1;">
-            <h4 class="pt-0 mt-0 fw-bold">AGELESS MULTI-COLLAGEN® PROTEIN POWDER</h4>
+            <h3 class="px-0 mx-0 pt-1 mt-1 fs-95">AGELESS MULTI-COLLAGEN® PROTEIN POWDER</h3>
             
-            <span title="stars" style="font-size: 30%">
+            <span title="stars" style="font-size: 25%">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span> 
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
             </span>
-            <span class="button-link fade-50" style="text-decoration: none; color: rgba(7, 93, 223, 0.877)">2429 Reviews</span>
+            <span class="button-link fade-50 fs-80" style="text-decoration: none; color: rgba(7, 93, 223, 0.877)">2429 Reviews</span>
             <div>
-                <img class="zoomin" src="/img/collagen-unflavored-5.17.21_1024x1024@2x.webp" style="max-width: 85%;">
+                <img class="verflow-hidden" src="/img/collagen-unflavored-5.17.21_1024x1024@2x.webp" style="max-width: 85%;">
                 <img style="max-width:100%" src="/img/free-report-image-1546015359856-1555446388183.avif">
             </div>
             
@@ -107,10 +110,10 @@
             <h3 class="pt-0 mt-0" style="font-size: 160%;font-weight: 600; color:#0d4f9a;">Choose Your Package</h3>
             <p>Select your money-saving option below:</p>
             <div class="row pb-4">
-                <div class="col-sm-6">
-                    <button class="w-100 btn btn-primary p-3" style="background-color:#0d4f9a;">One Time Purchase</button>
+                <div class="col-sm-6 px-1">
+                    <button class="w-100 btn btn-primary p-3 fw-bold" style="background-color:#0d4f9a;">One Time Purchase</button>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 px-1">
                     <div>
                         <span class="q-mark position-absolute" >&#63;</span>
                         <button class="w-100 btn btn-outline-primary p-3 position-relative go-back" >Subscribe & Save 36%
@@ -127,16 +130,16 @@
                 <div class="card-body">
                   <h2 class="card-title fw-bold" style="color:#023877">1 Bag</h2>
                   <h1 class="card-text" >$49</h1>
-                  <a href="#" class="btn btn-primary" style="color: white; background-color:#14b121; border: none; margin-top: 40%; ">CHOOSE FLAVORS</a>
+                  <a href="#" class="btn btn-primary mt-5 px-4" style="color: white; background-color:#14b121; border: none;">CHOOSE FLAVORS</a>
                 </div>
             </div>
-            <div class="card text-center col-md-4 p-0" style="width: 16rem; border-radius: 0;">
-                <div class="card-body most-popular p-0 pb-3">
+            <div class="card text-center col-md-4 p-0 mb-4" style="width: 16rem; border-radius: 0; border: 3px solid #0d4f9a">
+                <div class="card-body most-popular p-0 pb-0">
                   <p style="color:white; background-color:#0d4f9a; font-size: 120%; font-weight: 600;">Most Popular</p>
                   <h2 class="card-title fw-bolder" style="color:#0d4f9a">3 Bags</h2>
                   <h3 class="card-title" style="width: 50%; margin: auto; color: #14b121;">$35 Per Bag</h3>
-                  <h4 class="card-title text-danger">(Save 28%)</h4>
-                  <a href="#" class="btn btn-primary" style="color: white; background-color:#14b121; border: none; ">CHOOSE FLAVORS</a>
+                  <h4 class="card-title mb-0 text-danger">(Save 28%)</h4>
+                  <a href="#" class="btn btn-primary mt-5 px-4" style="color: white; background-color:#14b121; border: none; ">CHOOSE FLAVORS</a>
                 </div>
             </div>
             <div class="card text-center col-md-4 my-5 mt-3" style="width: 16rem; border: 2px solid #0d4f9a; border-radius: 0; border-left: 0;">
@@ -144,10 +147,10 @@
                   <h2 class="card-title fw-bolder" style="color:#023877">6 Bags</h3>
                   <h3 class="card-title" style="width: 60%; margin: auto; color: #14b121;">$31 Per Bag</h3>
                   <h3 class="card-title text-danger">(Save 36%)</h3>
-                  <a href="#" class="btn btn-primary" style="color: white; background-color:#14b121; border: none; margin-top: 10%;">CHOOSE FLAVORS</a>
+                  <a href="#" class="btn btn-primary mt-2 px-4" style="color: white; background-color:#14b121; border: none;">CHOOSE FLAVORS</a>
                 </div>
               </div>
-            <h5 class="mt-lg-5" style="color:#0d4f9a;">PHOTOS FROM THE #biotrust COMMUNITY</h5>
+            <h6 class="mt-lg-5 fw-bold" style="color:#0d4f9a;">PHOTOS FROM THE #biotrust COMMUNITY</h6>
         </div>
         <div title="carousel">
             <div id="myCarousel" class="carousel slide w-100 mt-3" style="margin: auto;" data-ride="carousel">
@@ -219,19 +222,19 @@
             <p>60-DAY MONEY BACK GUARANTEE</p>
         </div>
     </div>
-    <div class="col-md-3">
-        <div class="col-md-12 text-white p-5 pb-1" style="background-color:rgb(9, 53, 104);" >
+    <div class="col-md-3 px-0">
+        <div class="col-md-12 text-white p-5 pb-1 " style="background-color:rgb(9, 53, 104);" >
             <p>COMPLETE, 5-COLLAGEN PROTEIN</p>
         </div>
         
     </div>
-    <div class="col-md-3" >
+    <div class="col-md-3 pr-0" >
         <div class="col-md-12 text-white p-5 pb-1" style="background-color:rgb(9, 53, 104);" >
             <p>HORMONE & GLUTEN-FREE & NON-GMO</p>
         </div>
     
     </div>
-    <div class="col-md-3" >
+    <div class="col-md-3 px-0" >
         <div class="col-md-12 text-white p-5 pb-1" style="background-color:rgb(9, 53, 104);" >
             <p>NEVER CLUMPS</p>
         </div>

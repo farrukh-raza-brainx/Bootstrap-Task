@@ -34,6 +34,14 @@ button.btn-outline-primary:hover, button.btn:hover{
 
     flex-direction: column;
 }
+@media screen and (min-width: 1000px) {
+    .nav-div{
+        margin-left: 80px;
+    }
+    .cs-support{
+     margin-left: 60px;   
+    }
+  }
 header{
     font-family:  "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
 }
@@ -95,9 +103,6 @@ pre{
         display: grid;
         justify-content: center;
     }
-    nav.div{
-        padding-left: 0;
-    }
     iframe, .frame1{
         width: 370px;
     }
@@ -125,14 +130,44 @@ pre{
   }
   .q-mark{
     border-radius: 200%;
-    padding: 2px 4px;
+    padding: 2px 6px;
     background-color: rgb(7, 145, 7);
     color: white;
     float: right;
     right: 0;
     font-size: x-small;
-    margin-right: 7px;
+    margin-right: 20px;
   }
   .go-back{
     z-index: -1;
   }
+  .carousel-img{
+    max-width:60%; margin: auto;
+  }
+  .nav-btn-outline{
+    border: none; color: #0805a7;font-size: 90%; font-weight: 600;
+    text-decoration: none;
+  }
+  .lt-spc{
+    letter-spacing: 2px;
+  }
+  .w40{
+    width: 40%;
+  }
+  .w60{
+    width: 60%;
+  }
+  .btn-blue{
+    background-color:#023877;
+  }
+  .fs-95{
+    font-size: 160%;
+    font-weight: 600;
+  }
+  .fs-80{
+    font-size: 80%;
+  }
+  .pr-0{
+    padding: 0px 12px 0px 0px;
+  }
+  

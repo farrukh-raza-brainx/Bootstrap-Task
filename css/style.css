@@ -9,7 +9,47 @@ button.btn-outline-primary:hover, button.btn:hover{
     background-color: transparent;
     opacity: 50%;
 }
-
+@media screen and (max-width: 468px ) {
+  body{
+      justify-content: center;
+      margin: auto;
+  }
+  .hideme{
+      display: none;
+  }
+  .col-sm-3{
+      border: 1px solid darkgray;
+  }
+  .jus-con{
+      justify-content: center;
+      text-align: center;
+  }
+  nav{
+      display: grid;
+      justify-content: center;
+  }
+  iframe, .frame1{
+      width: 370px;
+  }
+  .op-0{
+    opacity: 0% !important;
+  }
+  .vr{
+    -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  height: 0px;
+  width: 0px;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  }
+  .fl-rt{float: right;}
+  .fl-lf{float: left;}
+  
+}
 
 @media screen and (min-width: 1000px) {
     .nav-div{
@@ -17,6 +57,9 @@ button.btn-outline-primary:hover, button.btn:hover{
     }
     .cs-support{
      margin-left: 30px;   
+    }
+    .input-bar{
+      width: 350px;
     }
   }
 header{
@@ -42,44 +85,7 @@ pre{
 .fa.fa-star{
     font-size: 300%;
 }
-@media screen and (max-width: 468px ) {
-    body{
-        justify-content: center;
-        margin: auto;
-    }
-    .hideme{
-        display: none;
-    }
-    .col-sm-3{
-        border: 1px solid darkgray;
-    }
-    .jus-con{
-        justify-content: center;
-        text-align: center;
-    }
-    nav{
-        display: grid;
-        justify-content: center;
-    }
-    iframe, .frame1{
-        width: 370px;
-    }
-    .vr{
-      -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    height: 0px;
-    width: 0px;
-    border: none;
-    margin: 0px;
-    padding: 0px;
-    }
-    .fl-rt{float: right;}
-    .fl-lf{float: left;}
-    
-}
+
   .hover50:hover{
     opacity: 50%;
   }
@@ -160,7 +166,7 @@ pre{
     transform: rotate(270deg);
   }
   .input-bar{
-    width: 350px;
+    
     padding: 7px;
     border: 1px solid lightgray!important;
     border-radius: 5px;
@@ -180,4 +186,10 @@ pre{
     bottom: 65px;
     right: 213px;
     width: 10%;
+  }
+  .border-none{
+    border: none;
+  }
+  .h-cursor-pointer:hover{
+    cursor: pointer;
   }
